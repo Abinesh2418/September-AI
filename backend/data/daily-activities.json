@@ -1,0 +1,312 @@
+[
+  {
+    "date": "2025-11-17",
+    "employeeId": "emp_001",
+    "tasksCompleted": [
+      {
+        "id": "task_001",
+        "title": "Complete Security & Compliance Training",
+        "completedAt": "2025-11-17T10:30:00Z"
+      }
+    ],
+    "tasksStarted": [
+      {
+        "id": "task_002",
+        "title": "Read API Documentation & Database Schema",
+        "startedAt": "2025-11-17T11:00:00Z"
+      }
+    ],
+    "totalTimeSpent": 1.5
+  },
+  {
+    "date": "2025-11-16",
+    "employeeId": "emp_002",
+    "tasksCompleted": [
+      {
+        "id": "task_004",
+        "title": "Complete Frontend Setup Training",
+        "completedAt": "2025-11-16T15:00:00Z"
+      }
+    ],
+    "tasksStarted": [],
+    "totalTimeSpent": 3.5
+  },
+  {
+    "date": "2025-11-17",
+    "employeeId": "emp_002",
+    "tasksCompleted": [],
+    "tasksStarted": [
+      {
+        "id": "task_005",
+        "title": "Create First UI Component",
+        "startedAt": "2025-11-17T09:00:00Z"
+      }
+    ],
+    "totalTimeSpent": 2
+  },
+  {
+    "employeeId": "3",
+    "date": "2025-11-17",
+    "tasksCompleted": [
+      {
+        "title": "Complete Development Environment Setup",
+        "description": "Set up development tools, IDE configurations, and necessary software packages.",
+        "priority": "medium",
+        "dueDate": "2025-11-24",
+        "estimatedHours": 3,
+        "assignedBy": "2",
+        "order": 1,
+        "status": "in-progress",
+        "subtasks": [
+          {
+            "id": "1763374718139_1",
+            "title": "Start the task",
+            "description": "",
+            "completed": true,
+            "order": 1,
+            "completedAt": "2025-11-17T10:19:11.397Z"
+          },
+          {
+            "id": "1763374718139_2",
+            "title": "Complete main work",
+            "description": "",
+            "completed": false,
+            "order": 2
+          },
+          {
+            "id": "1763374718139_3",
+            "title": "Review and finalize",
+            "description": "",
+            "completed": false,
+            "order": 3
+          }
+        ],
+        "assignedTo": "3",
+        "id": "1763374718140cltvl1341",
+        "createdAt": "2025-11-17T10:18:38.140Z",
+        "updatedAt": "2025-11-17T10:19:18.684Z"
+      },
+      {
+        "title": "Complete First Code Review",
+        "description": "Participate in code review process and understand team development practices.",
+        "priority": "medium",
+        "dueDate": "2025-12-08",
+        "estimatedHours": 2,
+        "assignedBy": "2",
+        "order": 3,
+        "status": "in-progress",
+        "subtasks": [
+          {
+            "id": "1763374718144_1",
+            "title": "Start the task",
+            "description": "",
+            "completed": false,
+            "order": 1
+          },
+          {
+            "id": "1763374718144_2",
+            "title": "Complete main work",
+            "description": "",
+            "completed": false,
+            "order": 2
+          },
+          {
+            "id": "1763374718144_3",
+            "title": "Review and finalize",
+            "description": "",
+            "completed": false,
+            "order": 3
+          }
+        ],
+        "assignedTo": "3",
+        "id": "17633747181456zgiru6ki",
+        "createdAt": "2025-11-17T10:18:38.145Z",
+        "updatedAt": "2025-11-17T10:22:12.807Z"
+      },
+      {
+        "title": "Review Code Standards & Best Practices",
+        "description": "Study coding standards, development workflows, and best practices documentation.",
+        "priority": "medium",
+        "dueDate": "2025-12-01",
+        "estimatedHours": 4,
+        "assignedBy": "2",
+        "order": 31,
+        "status": "in-progress",
+        "subtasks": [
+          {
+            "id": "1763374718150_0",
+            "title": "Open documentation portal",
+            "description": "",
+            "completed": false,
+            "order": 1
+          },
+          {
+            "id": "1763374718150_1",
+            "title": "Read overview section",
+            "description": "",
+            "completed": false,
+            "order": 2
+          },
+          {
+            "id": "1763374718150_2",
+            "title": "Study key concepts",
+            "description": "",
+            "completed": false,
+            "order": 3
+          },
+          {
+            "id": "1763374718150_3",
+            "title": "Take notes on important points",
+            "description": "",
+            "completed": false,
+            "order": 4
+          },
+          {
+            "id": "1763374718150_4",
+            "title": "Complete comprehension check",
+            "description": "",
+            "completed": false,
+            "order": 5
+          }
+        ],
+        "assignedTo": "3",
+        "id": "17633747181510xmbn1crr",
+        "createdAt": "2025-11-17T10:18:38.151Z",
+        "updatedAt": "2025-11-17T10:38:44.096Z"
+      }
+    ],
+    "totalTimeSpent": 0
+  },
+  {
+    "employeeId": "5",
+    "date": "2025-11-17",
+    "tasksCompleted": [
+      {
+        "title": "Complete Data Analysis Tools Training",
+        "description": "Learn to use company data analysis tools, databases, and reporting systems.",
+        "priority": "medium",
+        "dueDate": "2025-11-24",
+        "estimatedHours": 4,
+        "assignedBy": "2",
+        "order": 20,
+        "status": "in-progress",
+        "subtasks": [
+          {
+            "id": "1763376429024_1",
+            "title": "Start the task",
+            "description": "",
+            "completed": false,
+            "order": 1
+          },
+          {
+            "id": "1763376429024_2",
+            "title": "Complete main work",
+            "description": "",
+            "completed": false,
+            "order": 2
+          },
+          {
+            "id": "1763376429024_3",
+            "title": "Review and finalize",
+            "description": "",
+            "completed": false,
+            "order": 3
+          }
+        ],
+        "assignedTo": "5",
+        "id": "1763376429025hi1e43f2i",
+        "createdAt": "2025-11-17T10:47:09.025Z",
+        "updatedAt": "2025-11-17T10:47:19.753Z"
+      }
+    ],
+    "totalTimeSpent": 0
+  },
+  {
+    "employeeId": "4",
+    "date": "2025-11-17",
+    "tasksCompleted": [
+      {
+        "title": "Study Design System & Brand Guidelines",
+        "description": "Learn about the company's design system, brand guidelines, and UI/UX standards.",
+        "priority": "medium",
+        "dueDate": "2025-12-01",
+        "estimatedHours": 4,
+        "assignedBy": "2",
+        "order": 2,
+        "status": "in-progress",
+        "subtasks": [
+          {
+            "id": "1763377651208_1",
+            "title": "Start the task",
+            "description": "",
+            "completed": false,
+            "order": 1
+          },
+          {
+            "id": "1763377651208_2",
+            "title": "Complete main work",
+            "description": "",
+            "completed": false,
+            "order": 2
+          },
+          {
+            "id": "1763377651209_3",
+            "title": "Review and finalize",
+            "description": "",
+            "completed": false,
+            "order": 3
+          }
+        ],
+        "assignedTo": "4",
+        "id": "1763377651212d5hmtl7el",
+        "createdAt": "2025-11-17T11:07:31.212Z",
+        "updatedAt": "2025-11-17T11:08:02.756Z"
+      }
+    ],
+    "totalTimeSpent": 0
+  },
+  {
+    "employeeId": "6",
+    "date": "2025-11-17",
+    "tasksCompleted": [
+      {
+        "title": "Review Marketing Tools & Platforms",
+        "description": "Get familiar with marketing automation tools, analytics platforms, and CRM systems.",
+        "priority": "medium",
+        "dueDate": "2025-12-01",
+        "estimatedHours": 4,
+        "assignedBy": "2",
+        "order": 2,
+        "status": "in-progress",
+        "subtasks": [
+          {
+            "id": "1763380113708_1",
+            "title": "Start the task",
+            "description": "",
+            "completed": false,
+            "order": 1
+          },
+          {
+            "id": "1763380113708_2",
+            "title": "Complete main work",
+            "description": "",
+            "completed": false,
+            "order": 2
+          },
+          {
+            "id": "1763380113708_3",
+            "title": "Review and finalize",
+            "description": "",
+            "completed": false,
+            "order": 3
+          }
+        ],
+        "assignedTo": "6",
+        "id": "1763380113709j5blfrxmv",
+        "createdAt": "2025-11-17T11:48:33.709Z",
+        "updatedAt": "2025-11-17T11:49:08.406Z"
+      }
+    ],
+    "totalTimeSpent": 0
+  }
+]

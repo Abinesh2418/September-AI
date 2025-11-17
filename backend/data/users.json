@@ -1,0 +1,70 @@
+[
+  {
+    "id": "1",
+    "email": "manager@company.com",
+    "password": "manager123",
+    "name": "John Manager",
+    "role": "manager",
+    "department": "Operations",
+    "permissions": ["view_all_employees", "view_team_progress", "assign_tasks", "view_reports"]
+  },
+  {
+    "id": "2", 
+    "email": "hr@company.com",
+    "password": "hr123",
+    "name": "Sarah HR",
+    "role": "hr",
+    "department": "Human Resources", 
+    "permissions": ["create_employees", "assign_role_tasks", "view_all_progress", "manage_onboarding"]
+  },
+  {
+    "id": "3",
+    "email": "john.doe@company.com",
+    "password": "employee123",
+    "name": "John Doe",
+    "role": "developer",
+    "department": "Engineering",
+    "manager": "manager@company.com",
+    "permissions": ["view_own_tasks", "complete_tasks", "request_help"]
+  },
+  {
+    "id": "4",
+    "email": "jane.smith@company.com", 
+    "password": "employee123",
+    "name": "Jane Smith",
+    "role": "designer",
+    "department": "Design",
+    "manager": "manager@company.com",
+    "permissions": ["view_own_tasks", "complete_tasks", "request_help"]
+  },
+  {
+    "id": "5",
+    "email": "mike.wilson@company.com",
+    "password": "employee123", 
+    "name": "Mike Wilson",
+    "role": "analyst",
+    "department": "Analytics",
+    "manager": "manager@company.com",
+    "permissions": ["view_own_tasks", "complete_tasks", "request_help", "view_reports"]
+  },
+  {
+    "id": "6",
+    "email": "lisa.brown@company.com",
+    "password": "employee123",
+    "name": "Lisa Brown", 
+    "role": "marketing_specialist",
+    "department": "Marketing",
+    "manager": "manager@company.com",
+    "permissions": ["view_own_tasks", "complete_tasks", "request_help"]
+  },
+  {
+    "id": "7",
+    "email": "abinesh.kumar@company.com",
+    "password": "abinesh123",
+    "name": "Abinesh Kumar",
+    "role": "developer",
+    "department": "Engineering",
+    "manager": "manager@company.com",
+    "permissions": ["view_own_tasks", "complete_tasks", "request_help", "view_reports"]
+  }
+]

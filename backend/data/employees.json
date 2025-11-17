@@ -1,0 +1,52 @@
+[
+  {
+    "id": "emp_001",
+    "name": "Abinesh Kumar",
+    "email": "abinesh@company.com",
+    "role": "backend-developer",
+    "team": "Product Development",
+    "manager": "mgr_001",
+    "joinDate": "2025-11-15",
+    "isActive": true
+  },
+  {
+    "id": "emp_002",
+    "name": "Sarah Johnson",
+    "email": "sarah.j@company.com",
+    "role": "frontend-developer",
+    "team": "Product Development",
+    "manager": "mgr_001",
+    "joinDate": "2025-11-10",
+    "isActive": true
+  },
+  {
+    "id": "mgr_001",
+    "name": "John Manager",
+    "email": "john.manager@company.com",
+    "role": "manager",
+    "team": "Product Development",
+    "manager": "ceo_001",
+    "joinDate": "2025-01-15",
+    "isActive": true
+  },
+  {
+    "id": "hr_001",
+    "name": "Lisa HR",
+    "email": "lisa.hr@company.com",
+    "role": "hr",
+    "team": "Human Resources",
+    "manager": "ceo_001",
+    "joinDate": "2025-01-01",
+    "isActive": true
+  },
+  {
+    "name": "Deni",
+    "email": "deni@gmail.com",
+    "role": "frontend-developer",
+    "team": "Product Team C",
+    "manager": "Dddddddddddd",
+    "joinDate": "2025-11-17",
+    "id": "1763362065214hh91l1prq",
+    "isActive": true
+  }
+]

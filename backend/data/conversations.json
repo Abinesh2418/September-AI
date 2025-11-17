@@ -1,0 +1,530 @@
+[
+  {
+    "id": "17633696302280ojwtreon",
+    "user_id": "3",
+    "message": "I am frontend developer",
+    "role": "user",
+    "metadata": {},
+    "created_at": "2025-11-17T08:53:50.228Z"
+  },
+  {
+    "id": "17633696578825b4thevtz",
+    "user_id": "3",
+    "message": "I am a frontend developer",
+    "role": "user",
+    "metadata": {},
+    "created_at": "2025-11-17T08:54:17.882Z"
+  },
+  {
+    "id": "1763373653897jk5a73839",
+    "user_id": "1",
+    "message": "List all employeed",
+    "role": "user",
+    "metadata": {},
+    "created_at": "2025-11-17T10:00:53.897Z"
+  },
+  {
+    "id": "1763373666641jtrmhyvpb",
+    "user_id": "1",
+    "message": "List all employees",
+    "role": "user",
+    "metadata": {},
+    "created_at": "2025-11-17T10:01:06.641Z"
+  },
+  {
+    "id": "1763374294280nf5uzjgkf",
+    "user_id": "1",
+    "message": "How many tickets are available?",
+    "role": "user",
+    "metadata": {},
+    "created_at": "2025-11-17T10:11:34.280Z"
+  },
+  {
+    "id": "17633742942882bk4ad2od",
+    "user_id": "1",
+    "message": "📊 **Ticket Statistics:**\n• Total tickets: 6\n• Open tickets: 6\n• Closed tickets: 0",
+    "role": "assistant",
+    "metadata": {
+      "intent": "ticket_query",
+      "confidence": 0.576
+    },
+    "created_at": "2025-11-17T10:11:34.288Z"
+  },
+  {
+    "id": "17633742984169iwethk1m",
+    "user_id": "1",
+    "message": "Show me open tickets",
+    "role": "user",
+    "metadata": {},
+    "created_at": "2025-11-17T10:11:38.417Z"
+  },
+  {
+    "id": "17633742985223o8urj7ii",
+    "user_id": "1",
+    "message": "📋 **Found 6 open ticket(s):**\n\n🎫 **#6**: laptop is\n   Priority: medium | Status: open\n   Created: 13/11/2025\n\n🎫 **#5**: newwww\n   Priority: medium | Status: open\n   Created: 13/11/2025\n\n🎫 **#4**: abc\n   Priority: high | Status: open\n   Created: 13/11/2025\n\n🎫 **#3**: abc\n   Priority: medium | Status: open\n   Created: 13/11/2025\n\n🎫 **#2**: Abc\n   Priority: low | Status: open\n   Created: 13/11/2025\n\n... and 1 more tickets",
+    "role": "assistant",
+    "metadata": {
+      "intent": "ticket_query",
+      "confidence": 0.576
+    },
+    "created_at": "2025-11-17T10:11:38.522Z"
+  },
+  {
+    "id": "1763374316802uy30e47qk",
+    "user_id": "1",
+    "message": "List all employees",
+    "role": "user",
+    "metadata": {},
+    "created_at": "2025-11-17T10:11:56.802Z"
+  },
+  {
+    "id": "1763374316806t324itmkj",
+    "user_id": "1",
+    "message": "👥 **Employee Directory (6 employees):**\n\n1. **Sarah HR**\n   📧 hr@company.com\n   🏢 Human Resources\n   👔 Hr\n\n2. **John Doe**\n   📧 john.doe@company.com\n   🏢 Engineering\n   👔 Developer\n\n3. **Jane Smith**\n   📧 jane.smith@company.com\n   🏢 Design\n   👔 Designer\n\n4. **Mike Wilson**\n   📧 mike.wilson@company.com\n   🏢 Analytics\n   👔 Analyst\n\n5. **Lisa Brown**\n   📧 lisa.brown@company.com\n   🏢 Marketing\n   👔 Marketing Specialist\n\n6. **Abinesh Kumar**\n   📧 abinesh.kumar@company.com\n   🏢 Engineering\n   👔 Developer",
+    "role": "assistant",
+    "metadata": {
+      "intent": "employee_management",
+      "confidence": 0.6171428571428571
+    },
+    "created_at": "2025-11-17T10:11:56.806Z"
+  },
+  {
+    "id": "1763374363615dkfrgb7qs",
+    "user_id": "1",
+    "message": "show team status",
+    "role": "user",
+    "metadata": {},
+    "created_at": "2025-11-17T10:12:43.615Z"
+  },
+  {
+    "id": "17633743636170o59tu1b2",
+    "user_id": "1",
+    "message": "📊 **Team Progress Overview:**\n\n👤 **John Doe** (Developer)\n   Progress: 85% | Tasks: 10/12 completed\n   Status: 🟡 On Track\n\n👤 **Jane Smith** (Designer)\n   Progress: 92% | Tasks: 7/8 completed\n   Status: 🟢 Excellent\n\n👤 **Mike Wilson** (Analyst)\n   Progress: 78% | Tasks: 12/15 completed\n   Status: 🟡 On Track\n\n👤 **Lisa Brown** (Marketing Specialist)\n   Progress: 88% | Tasks: 9/10 completed\n   Status: 🟡 On Track\n\n📈 **Team Average**: 86%",
+    "role": "assistant",
+    "metadata": {
+      "intent": "team_progress",
+      "confidence": 0.5714285714285715
+    },
+    "created_at": "2025-11-17T10:12:43.617Z"
+  },
+  {
+    "id": "1763374396670tkk2fq1yq",
+    "user_id": "1",
+    "message": "Display staff directory",
+    "role": "user",
+    "metadata": {},
+    "created_at": "2025-11-17T10:13:16.670Z"
+  },
+  {
+    "id": "1763374410369u6w2qmk0k",
+    "user_id": "1",
+    "message": "What needs my attention?",
+    "role": "user",
+    "metadata": {},
+    "created_at": "2025-11-17T10:13:30.369Z"
+  },
+  {
+    "id": "17633744148426msd9zlmq",
+    "user_id": "1",
+    "message": "How many people are being onboarded?",
+    "role": "user",
+    "metadata": {},
+    "created_at": "2025-11-17T10:13:34.843Z"
+  },
+  {
+    "id": "1763374421542mqcb28zk5",
+    "user_id": "1",
+    "message": "List access requests",
+    "role": "user",
+    "metadata": {},
+    "created_at": "2025-11-17T10:13:41.542Z"
+  },
+  {
+    "id": "1763374421566pt8p55utx",
+    "user_id": "1",
+    "message": "🔑 **Found 4 access request(s):**\n\n🔐 **undefined** (undefined access)\n   Reason: undefined\n   Status: pending\n\n🔐 **undefined** (undefined access)\n   Reason: undefined\n   Status: pending\n\n🔐 **undefined** (undefined access)\n   Reason: undefined\n   Status: pending\n\n🔐 **undefined** (undefined access)\n   Reason: undefined\n   Status: pending",
+    "role": "assistant",
+    "metadata": {
+      "intent": "access_request_query",
+      "confidence": 0.5714285714285715
+    },
+    "created_at": "2025-11-17T10:13:41.566Z"
+  },
+  {
+    "id": "1763374428621p8ko0mxly",
+    "user_id": "1",
+    "message": "Show me pending onboarding",
+    "role": "user",
+    "metadata": {},
+    "created_at": "2025-11-17T10:13:48.621Z"
+  },
+  {
+    "id": "17633744286238fkzlsae1",
+    "user_id": "1",
+    "message": "👋 **Found 1 onboarding request(s):**\n\n👤 **asasa** (aaa)\n   Department: undefined\n   Status: pending",
+    "role": "assistant",
+    "metadata": {
+      "intent": "onboarding_query",
+      "confidence": 0.52
+    },
+    "created_at": "2025-11-17T10:13:48.623Z"
+  },
+  {
+    "id": "1763374436666qg9ksmu6n",
+    "user_id": "1",
+    "message": "Show me open tickets",
+    "role": "user",
+    "metadata": {},
+    "created_at": "2025-11-17T10:13:56.666Z"
+  },
+  {
+    "id": "17633744366678hz8sz0ab",
+    "user_id": "1",
+    "message": "📋 **Found 6 open ticket(s):**\n\n🎫 **#6**: laptop is\n   Priority: medium | Status: open\n   Created: 13/11/2025\n\n🎫 **#5**: newwww\n   Priority: medium | Status: open\n   Created: 13/11/2025\n\n🎫 **#4**: abc\n   Priority: high | Status: open\n   Created: 13/11/2025\n\n🎫 **#3**: abc\n   Priority: medium | Status: open\n   Created: 13/11/2025\n\n🎫 **#2**: Abc\n   Priority: low | Status: open\n   Created: 13/11/2025\n\n... and 1 more tickets",
+    "role": "assistant",
+    "metadata": {
+      "intent": "ticket_query",
+      "confidence": 0.576
+    },
+    "created_at": "2025-11-17T10:13:56.667Z"
+  },
+  {
+    "id": "17633744611188jq1r7c1w",
+    "user_id": "1",
+    "message": "show me employee list",
+    "role": "user",
+    "metadata": {},
+    "created_at": "2025-11-17T10:14:21.118Z"
+  },
+  {
+    "id": "176337446112013z38kd79",
+    "user_id": "1",
+    "message": "👥 **Employee Directory (6 employees):**\n\n1. **Sarah HR**\n   📧 hr@company.com\n   🏢 Human Resources\n   👔 Hr\n\n2. **John Doe**\n   📧 john.doe@company.com\n   🏢 Engineering\n   👔 Developer\n\n3. **Jane Smith**\n   📧 jane.smith@company.com\n   🏢 Design\n   👔 Designer\n\n4. **Mike Wilson**\n   📧 mike.wilson@company.com\n   🏢 Analytics\n   👔 Analyst\n\n5. **Lisa Brown**\n   📧 lisa.brown@company.com\n   🏢 Marketing\n   👔 Marketing Specialist\n\n6. **Abinesh Kumar**\n   📧 abinesh.kumar@company.com\n   🏢 Engineering\n   👔 Developer",
+    "role": "assistant",
+    "metadata": {
+      "intent": "employee_management",
+      "confidence": 0.5714285714285715
+    },
+    "created_at": "2025-11-17T10:14:21.120Z"
+  },
+  {
+    "id": "1763374478353btq96r09o",
+    "user_id": "1",
+    "message": "Is John Doe Employee completed the task?",
+    "role": "user",
+    "metadata": {},
+    "created_at": "2025-11-17T10:14:38.353Z"
+  },
+  {
+    "id": "1763374925030uock3vzcl",
+    "user_id": "3",
+    "message": "Show john doe progress",
+    "role": "user",
+    "metadata": {},
+    "created_at": "2025-11-17T10:22:05.030Z"
+  },
+  {
+    "id": "1763375783210u66hzul4h",
+    "user_id": "2",
+    "message": "Show me open tickets",
+    "role": "user",
+    "metadata": {},
+    "created_at": "2025-11-17T10:36:23.210Z"
+  },
+  {
+    "id": "1763375783258dk11xkmn5",
+    "user_id": "2",
+    "message": "📋 **Found 6 open ticket(s):**\n\n🎫 **#6**: laptop is\n   Priority: medium | Status: open\n   Created: 13/11/2025\n\n🎫 **#5**: newwww\n   Priority: medium | Status: open\n   Created: 13/11/2025\n\n🎫 **#4**: abc\n   Priority: high | Status: open\n   Created: 13/11/2025\n\n🎫 **#3**: abc\n   Priority: medium | Status: open\n   Created: 13/11/2025\n\n🎫 **#2**: Abc\n   Priority: low | Status: open\n   Created: 13/11/2025\n\n... and 1 more tickets",
+    "role": "assistant",
+    "metadata": {
+      "intent": "ticket_query",
+      "confidence": 0.576
+    },
+    "created_at": "2025-11-17T10:36:23.258Z"
+  },
+  {
+    "id": "1763375795702wo1zqwper",
+    "user_id": "2",
+    "message": "What is the progress of John Doe?",
+    "role": "user",
+    "metadata": {},
+    "created_at": "2025-11-17T10:36:35.702Z"
+  },
+  {
+    "id": "176337579571178zb89s7o",
+    "user_id": "2",
+    "message": "📋 **John Manager** has no assigned tasks yet.",
+    "role": "assistant",
+    "metadata": {
+      "intent": "employee_progress",
+      "confidence": 0.5914285714285714
+    },
+    "created_at": "2025-11-17T10:36:35.711Z"
+  },
+  {
+    "id": "1763375817806chu11cx2c",
+    "user_id": "2",
+    "message": "Show Abinesh Kumar's progress",
+    "role": "user",
+    "metadata": {},
+    "created_at": "2025-11-17T10:36:57.806Z"
+  },
+  {
+    "id": "176337581781110dzh3aq3",
+    "user_id": "2",
+    "message": "📋 **Abinesh Kumar** has no assigned tasks yet.",
+    "role": "assistant",
+    "metadata": {
+      "intent": "employee_progress",
+      "confidence": 0.5914285714285714
+    },
+    "created_at": "2025-11-17T10:36:57.811Z"
+  },
+  {
+    "id": "1763375855381f1opn1cup",
+    "user_id": "3",
+    "message": "What is the progress of John",
+    "role": "user",
+    "metadata": {},
+    "created_at": "2025-11-17T10:37:35.381Z"
+  },
+  {
+    "id": "17633758553846vbfs85wn",
+    "user_id": "3",
+    "message": "🚫 **Access Denied**: You don't have permission to view employee progress. This feature is available to managers and HR only.",
+    "role": "assistant",
+    "metadata": {
+      "intent": "employee_progress",
+      "confidence": 0.5914285714285714
+    },
+    "created_at": "2025-11-17T10:37:35.384Z"
+  },
+  {
+    "id": "1763375885736bl9z5hdfr",
+    "user_id": "3",
+    "message": "What is the progress of john.doe@company.com",
+    "role": "user",
+    "metadata": {},
+    "created_at": "2025-11-17T10:38:05.736Z"
+  },
+  {
+    "id": "1763375885739x4kjbkcsr",
+    "user_id": "3",
+    "message": "🚫 **Access Denied**: You don't have permission to view employee progress. This feature is available to managers and HR only.",
+    "role": "assistant",
+    "metadata": {
+      "intent": "employee_progress",
+      "confidence": 0.5914285714285714
+    },
+    "created_at": "2025-11-17T10:38:05.739Z"
+  },
+  {
+    "id": "1763375905518jpi04zish",
+    "user_id": "3",
+    "message": "I am HR , what is the progress of john.doe@company.com",
+    "role": "user",
+    "metadata": {},
+    "created_at": "2025-11-17T10:38:25.518Z"
+  },
+  {
+    "id": "1763375905520gavq9z3o5",
+    "user_id": "3",
+    "message": "🚫 **Access Denied**: You don't have permission to view employee progress. This feature is available to managers and HR only.",
+    "role": "assistant",
+    "metadata": {
+      "intent": "employee_progress",
+      "confidence": 0.5914285714285714
+    },
+    "created_at": "2025-11-17T10:38:25.520Z"
+  },
+  {
+    "id": "1763375949217wp1ev6djs",
+    "user_id": "3",
+    "message": "Progress of Mike Wilson",
+    "role": "user",
+    "metadata": {},
+    "created_at": "2025-11-17T10:39:09.217Z"
+  },
+  {
+    "id": "17633759492213ebby7zp9",
+    "user_id": "3",
+    "message": "🚫 **Access Denied**: You don't have permission to view employee progress. This feature is available to managers and HR only.",
+    "role": "assistant",
+    "metadata": {
+      "intent": "employee_progress",
+      "confidence": 0.5914285714285714
+    },
+    "created_at": "2025-11-17T10:39:09.221Z"
+  },
+  {
+    "id": "1763376377655np6zen4ai",
+    "user_id": "2",
+    "message": "Progress of john doe",
+    "role": "user",
+    "metadata": {},
+    "created_at": "2025-11-17T10:46:17.656Z"
+  },
+  {
+    "id": "1763376377663tprwlk1hz",
+    "user_id": "2",
+    "message": "📋 **John Manager** has no assigned tasks yet.",
+    "role": "assistant",
+    "metadata": {
+      "intent": "employee_progress",
+      "confidence": 0.5914285714285714
+    },
+    "created_at": "2025-11-17T10:46:17.663Z"
+  },
+  {
+    "id": "1763376404912gvkep88jn",
+    "user_id": "2",
+    "message": "Progress of Mike Wilson",
+    "role": "user",
+    "metadata": {},
+    "created_at": "2025-11-17T10:46:44.912Z"
+  },
+  {
+    "id": "1763376404916tocsc7jtu",
+    "user_id": "2",
+    "message": "📋 **Mike Wilson** has no assigned tasks yet.",
+    "role": "assistant",
+    "metadata": {
+      "intent": "employee_progress",
+      "confidence": 0.5914285714285714
+    },
+    "created_at": "2025-11-17T10:46:44.916Z"
+  },
+  {
+    "id": "1763376466476wwexo9589",
+    "user_id": "5",
+    "message": "progress of mike wilson",
+    "role": "user",
+    "metadata": {},
+    "created_at": "2025-11-17T10:47:46.476Z"
+  },
+  {
+    "id": "1763376466479g87ubdtb4",
+    "user_id": "5",
+    "message": "🚫 **Access Denied**: You don't have permission to view employee progress. This feature is available to managers and HR only.",
+    "role": "assistant",
+    "metadata": {
+      "intent": "employee_progress",
+      "confidence": 0.5914285714285714
+    },
+    "created_at": "2025-11-17T10:47:46.479Z"
+  },
+  {
+    "id": "17633764763282aarenn1c",
+    "user_id": "5",
+    "message": "Progress of Mike Wilson",
+    "role": "user",
+    "metadata": {},
+    "created_at": "2025-11-17T10:47:56.328Z"
+  },
+  {
+    "id": "176337647633276o3ytzeg",
+    "user_id": "5",
+    "message": "🚫 **Access Denied**: You don't have permission to view employee progress. This feature is available to managers and HR only.",
+    "role": "assistant",
+    "metadata": {
+      "intent": "employee_progress",
+      "confidence": 0.5914285714285714
+    },
+    "created_at": "2025-11-17T10:47:56.332Z"
+  },
+  {
+    "id": "1763376490606f1ve4jk0o",
+    "user_id": "2",
+    "message": "Progress of Mike Wilson\\",
+    "role": "user",
+    "metadata": {},
+    "created_at": "2025-11-17T10:48:10.606Z"
+  },
+  {
+    "id": "1763376490610qgt74ngl4",
+    "user_id": "2",
+    "message": "👤 **Mike Wilson** (Analyst)\n🏢 Department: Analytics\n\n📊 **Progress Overview:**\n• Overall Progress: 25%\n• Total Tasks: 4\n• ✅ Completed: 1\n• 🔄 In Progress: 0\n• ⏳ Pending: 3\n\n✅ **Recently Completed:**\n   • Complete Data Analysis Tools Training (17/11/2025)\n\n📈 **Recent Activity:**\n   • Completed task (17/11/2025)\n   • Started task (17/11/2025)\n   • Created task (17/11/2025)\n\n🔴 **Needs Attention**",
+    "role": "assistant",
+    "metadata": {
+      "intent": "employee_progress",
+      "confidence": 0.5914285714285714
+    },
+    "created_at": "2025-11-17T10:48:10.610Z"
+  },
+  {
+    "id": "17633777264485ms43np1c",
+    "user_id": "4",
+    "message": "Progress of jane smith",
+    "role": "user",
+    "metadata": {},
+    "created_at": "2025-11-17T11:08:46.448Z"
+  },
+  {
+    "id": "1763377726451p4xvsgr3y",
+    "user_id": "4",
+    "message": "🚫 **Access Denied**: You don't have permission to view employee progress. This feature is available to managers and HR only.",
+    "role": "assistant",
+    "metadata": {
+      "intent": "employee_progress",
+      "confidence": 0.5914285714285714
+    },
+    "created_at": "2025-11-17T11:08:46.451Z"
+  },
+  {
+    "id": "17633777406624e9x9dfs6",
+    "user_id": "2",
+    "message": "Progress of jane smith",
+    "role": "user",
+    "metadata": {},
+    "created_at": "2025-11-17T11:09:00.662Z"
+  },
+  {
+    "id": "1763377740665q40qgxiut",
+    "user_id": "2",
+    "message": "👤 **Jane Smith** (Designer)\n🏢 Department: Design\n\n📊 **Progress Overview:**\n• Overall Progress: 25%\n• Total Tasks: 4\n• ✅ Completed: 1\n• 🔄 In Progress: 0\n• ⏳ Pending: 3\n\n✅ **Recently Completed:**\n   • Study Design System & Brand Guidelines (17/11/2025)\n\n📈 **Recent Activity:**\n   • Completed task (17/11/2025)\n   • Started task (17/11/2025)\n   • Created task (17/11/2025)\n\n🔴 **Needs Attention**",
+    "role": "assistant",
+    "metadata": {
+      "intent": "employee_progress",
+      "confidence": 0.5914285714285714
+    },
+    "created_at": "2025-11-17T11:09:00.665Z"
+  },
+  {
+    "id": "1763380197951t25q15euw",
+    "user_id": "6",
+    "message": "Progress of Lisa Brown",
+    "role": "user",
+    "metadata": {},
+    "created_at": "2025-11-17T11:49:57.951Z"
+  },
+  {
+    "id": "17633801979530f18y43wv",
+    "user_id": "6",
+    "message": "🚫 **Access Denied**: You don't have permission to view employee progress. This feature is available to managers and HR only.",
+    "role": "assistant",
+    "metadata": {
+      "intent": "employee_progress",
+      "confidence": 0.5914285714285714
+    },
+    "created_at": "2025-11-17T11:49:57.953Z"
+  },
+  {
+    "id": "17633802092493np3o8db8",
+    "user_id": "2",
+    "message": "Progress of Lisa Brown",
+    "role": "user",
+    "metadata": {},
+    "created_at": "2025-11-17T11:50:09.249Z"
+  },
+  {
+    "id": "1763380209253atmzt7xpw",
+    "user_id": "2",
+    "message": "👤 **Lisa Brown** (Marketing Specialist)\n🏢 Department: Marketing\n\n📊 **Progress Overview:**\n• Overall Progress: 25%\n• Total Tasks: 4\n• ✅ Completed: 1\n• 🔄 In Progress: 0\n• ⏳ Pending: 3\n\n✅ **Recently Completed:**\n   • Review Marketing Tools & Platforms (17/11/2025)\n\n📈 **Recent Activity:**\n   • Completed task (17/11/2025)\n   • Started task (17/11/2025)\n   • Created task (17/11/2025)\n\n🔴 **Needs Attention**",
+    "role": "assistant",
+    "metadata": {
+      "intent": "employee_progress",
+      "confidence": 0.5914285714285714
+    },
+    "created_at": "2025-11-17T11:50:09.253Z"
+  }
+]

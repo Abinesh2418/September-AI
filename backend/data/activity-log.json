@@ -1,0 +1,384 @@
+[
+  {
+    "id": "activity_001",
+    "employeeId": "emp_001",
+    "taskId": "task_001",
+    "action": "created",
+    "timestamp": "2025-11-15T09:00:00Z",
+    "details": "Task \"Complete Security & Compliance Training\" assigned",
+    "performedBy": "hr_001"
+  },
+  {
+    "id": "activity_002",
+    "employeeId": "emp_001",
+    "taskId": "task_001",
+    "action": "started",
+    "timestamp": "2025-11-17T09:00:00Z",
+    "details": "Task \"Complete Security & Compliance Training\" started",
+    "performedBy": "emp_001"
+  },
+  {
+    "id": "activity_003",
+    "employeeId": "emp_001",
+    "taskId": "task_001",
+    "action": "completed",
+    "timestamp": "2025-11-17T10:30:00Z",
+    "details": "Task \"Complete Security & Compliance Training\" completed",
+    "performedBy": "emp_001",
+    "metadata": {
+      "oldStatus": "in-progress",
+      "newStatus": "completed",
+      "timeSpent": 1.5
+    }
+  },
+  {
+    "id": "activity_004",
+    "employeeId": "emp_001",
+    "taskId": "task_002",
+    "action": "started",
+    "timestamp": "2025-11-17T11:00:00Z",
+    "details": "Task \"Read API Documentation & Database Schema\" started",
+    "performedBy": "emp_001"
+  },
+  {
+    "id": "activity_005",
+    "employeeId": "emp_002",
+    "taskId": "task_004",
+    "action": "completed",
+    "timestamp": "2025-11-16T15:00:00Z",
+    "details": "Task \"Complete Frontend Setup Training\" completed",
+    "performedBy": "emp_002",
+    "metadata": {
+      "oldStatus": "in-progress",
+      "newStatus": "completed",
+      "timeSpent": 3.5
+    }
+  },
+  {
+    "id": "activity_006",
+    "employeeId": "emp_002",
+    "taskId": "task_005",
+    "action": "started",
+    "timestamp": "2025-11-17T09:00:00Z",
+    "details": "Task \"Create First UI Component\" started",
+    "performedBy": "emp_002"
+  },
+  {
+    "employeeId": "3",
+    "taskId": "1763374718140cltvl1341",
+    "action": "created",
+    "details": "Task \"Complete Development Environment Setup\" assigned",
+    "performedBy": "2",
+    "id": "1763374718143dx8q605rd",
+    "timestamp": "2025-11-17T10:18:38.143Z"
+  },
+  {
+    "employeeId": "3",
+    "taskId": "17633747181456zgiru6ki",
+    "action": "created",
+    "details": "Task \"Complete First Code Review\" assigned",
+    "performedBy": "2",
+    "id": "1763374718148ark5bwd6u",
+    "timestamp": "2025-11-17T10:18:38.148Z"
+  },
+  {
+    "employeeId": "3",
+    "taskId": "17633747181510xmbn1crr",
+    "action": "created",
+    "details": "Task \"Review Code Standards & Best Practices\" assigned",
+    "performedBy": "2",
+    "id": "17633747181536bxxo5eyd",
+    "timestamp": "2025-11-17T10:18:38.153Z"
+  },
+  {
+    "employeeId": "3",
+    "taskId": "1763374718156cq65eqzkz",
+    "action": "created",
+    "details": "Task \"Attend Development Team Meeting\" assigned",
+    "performedBy": "2",
+    "id": "1763374718158hecjreco3",
+    "timestamp": "2025-11-17T10:18:38.158Z"
+  },
+  {
+    "employeeId": "3",
+    "taskId": "1763374718140cltvl1341",
+    "action": "updated",
+    "details": "Task \"Complete Development Environment Setup\" updated",
+    "performedBy": "3",
+    "metadata": {
+      "oldStatus": "pending"
+    },
+    "id": "1763374751402b2df778ks",
+    "timestamp": "2025-11-17T10:19:11.402Z"
+  },
+  {
+    "employeeId": "3",
+    "taskId": "1763374718140cltvl1341",
+    "action": "started",
+    "details": "Task \"Complete Development Environment Setup\" started",
+    "performedBy": "3",
+    "metadata": {
+      "oldStatus": "pending",
+      "newStatus": "in-progress"
+    },
+    "id": "1763374758686plzflchz3",
+    "timestamp": "2025-11-17T10:19:18.686Z"
+  },
+  {
+    "employeeId": "3",
+    "taskId": "1763374718140cltvl1341",
+    "action": "completed",
+    "details": "Task \"Complete Development Environment Setup\" completed",
+    "performedBy": "3",
+    "metadata": {
+      "oldStatus": "in-progress",
+      "newStatus": "completed",
+      "comments": "completed"
+    },
+    "id": "1763374811370bsfcqacqd",
+    "timestamp": "2025-11-17T10:20:11.370Z"
+  },
+  {
+    "employeeId": "3",
+    "taskId": "17633747181456zgiru6ki",
+    "action": "started",
+    "details": "Task \"Complete First Code Review\" started",
+    "performedBy": "3",
+    "metadata": {
+      "oldStatus": "pending",
+      "newStatus": "in-progress"
+    },
+    "id": "17633749328092vbajffbl",
+    "timestamp": "2025-11-17T10:22:12.809Z"
+  },
+  {
+    "employeeId": "3",
+    "taskId": "17633747181456zgiru6ki",
+    "action": "completed",
+    "details": "Task \"Complete First Code Review\" completed",
+    "performedBy": "3",
+    "metadata": {
+      "oldStatus": "in-progress",
+      "newStatus": "completed",
+      "comments": "completed the entire task"
+    },
+    "id": "1763374947680qdfewbyfv",
+    "timestamp": "2025-11-17T10:22:27.680Z"
+  },
+  {
+    "employeeId": "3",
+    "taskId": "17633747181510xmbn1crr",
+    "action": "started",
+    "details": "Task \"Review Code Standards & Best Practices\" started",
+    "performedBy": "3",
+    "metadata": {
+      "oldStatus": "pending",
+      "newStatus": "in-progress"
+    },
+    "id": "17633759241012iyky1sqo",
+    "timestamp": "2025-11-17T10:38:44.101Z"
+  },
+  {
+    "employeeId": "3",
+    "taskId": "17633747181510xmbn1crr",
+    "action": "completed",
+    "details": "Task \"Review Code Standards & Best Practices\" completed",
+    "performedBy": "3",
+    "metadata": {
+      "oldStatus": "in-progress",
+      "newStatus": "completed",
+      "comments": "complete"
+    },
+    "id": "17633759320548kp2pd68o",
+    "timestamp": "2025-11-17T10:38:52.054Z"
+  },
+  {
+    "employeeId": "5",
+    "taskId": "1763376429025hi1e43f2i",
+    "action": "created",
+    "details": "Task \"Complete Data Analysis Tools Training\" assigned",
+    "performedBy": "2",
+    "id": "1763376429028azy8y6cvy",
+    "timestamp": "2025-11-17T10:47:09.028Z"
+  },
+  {
+    "employeeId": "5",
+    "taskId": "17633764290321mzj2g9e1",
+    "action": "created",
+    "details": "Task \"Review Business Requirements Documentation\" assigned",
+    "performedBy": "2",
+    "id": "176337642903418lw9k632",
+    "timestamp": "2025-11-17T10:47:09.034Z"
+  },
+  {
+    "employeeId": "5",
+    "taskId": "1763376429037v7rx88bvt",
+    "action": "created",
+    "details": "Task \"Attend Stakeholder Meetings\" assigned",
+    "performedBy": "2",
+    "id": "17633764290399l8pd2hpm",
+    "timestamp": "2025-11-17T10:47:09.040Z"
+  },
+  {
+    "employeeId": "5",
+    "taskId": "1763376429042plxuv3o9q",
+    "action": "created",
+    "details": "Task \"Complete First Data Analysis Project\" assigned",
+    "performedBy": "2",
+    "id": "1763376429045y5pob29sy",
+    "timestamp": "2025-11-17T10:47:09.045Z"
+  },
+  {
+    "employeeId": "5",
+    "taskId": "1763376429025hi1e43f2i",
+    "action": "started",
+    "details": "Task \"Complete Data Analysis Tools Training\" started",
+    "performedBy": "5",
+    "metadata": {
+      "oldStatus": "pending",
+      "newStatus": "in-progress"
+    },
+    "id": "17633764397565s2w8qvpn",
+    "timestamp": "2025-11-17T10:47:19.756Z"
+  },
+  {
+    "employeeId": "5",
+    "taskId": "1763376429025hi1e43f2i",
+    "action": "completed",
+    "details": "Task \"Complete Data Analysis Tools Training\" completed",
+    "performedBy": "5",
+    "metadata": {
+      "oldStatus": "in-progress",
+      "newStatus": "completed",
+      "comments": "completed"
+    },
+    "id": "17633764484015jkj44xxc",
+    "timestamp": "2025-11-17T10:47:28.401Z"
+  },
+  {
+    "employeeId": "4",
+    "taskId": "1763377651212d5hmtl7el",
+    "action": "created",
+    "details": "Task \"Study Design System & Brand Guidelines\" assigned",
+    "performedBy": "2",
+    "id": "1763377651214p5849bqln",
+    "timestamp": "2025-11-17T11:07:31.214Z"
+  },
+  {
+    "employeeId": "4",
+    "taskId": "1763377651218mdq1mx7o0",
+    "action": "created",
+    "details": "Task \"Set Up Design Tools & Assets\" assigned",
+    "performedBy": "2",
+    "id": "17633776512221rxfo7jgr",
+    "timestamp": "2025-11-17T11:07:31.222Z"
+  },
+  {
+    "employeeId": "4",
+    "taskId": "1763377651225lho73v75r",
+    "action": "created",
+    "details": "Task \"Complete First Design Assignment\" assigned",
+    "performedBy": "2",
+    "id": "1763377651228mirecpyq9",
+    "timestamp": "2025-11-17T11:07:31.228Z"
+  },
+  {
+    "employeeId": "4",
+    "taskId": "1763377651232slg0rc6n1",
+    "action": "created",
+    "details": "Task \"Complete Security & Compliance Training\" assigned",
+    "performedBy": "2",
+    "id": "17633776512366fsi9sj5z",
+    "timestamp": "2025-11-17T11:07:31.236Z"
+  },
+  {
+    "employeeId": "4",
+    "taskId": "1763377651212d5hmtl7el",
+    "action": "started",
+    "details": "Task \"Study Design System & Brand Guidelines\" started",
+    "performedBy": "4",
+    "metadata": {
+      "oldStatus": "pending",
+      "newStatus": "in-progress"
+    },
+    "id": "1763377682759sbggt24ju",
+    "timestamp": "2025-11-17T11:08:02.759Z"
+  },
+  {
+    "employeeId": "4",
+    "taskId": "1763377651212d5hmtl7el",
+    "action": "completed",
+    "details": "Task \"Study Design System & Brand Guidelines\" completed",
+    "performedBy": "4",
+    "metadata": {
+      "oldStatus": "in-progress",
+      "newStatus": "completed",
+      "comments": "complete"
+    },
+    "id": "1763377706770kzjb2speb",
+    "timestamp": "2025-11-17T11:08:26.770Z"
+  },
+  {
+    "employeeId": "6",
+    "taskId": "1763380113709j5blfrxmv",
+    "action": "created",
+    "details": "Task \"Review Marketing Tools & Platforms\" assigned",
+    "performedBy": "2",
+    "id": "17633801137118sah56o75",
+    "timestamp": "2025-11-17T11:48:33.711Z"
+  },
+  {
+    "employeeId": "6",
+    "taskId": "17633801137142brgkh5dv",
+    "action": "created",
+    "details": "Task \"Create First Marketing Campaign Draft\" assigned",
+    "performedBy": "2",
+    "id": "1763380113715wun0uq9kn",
+    "timestamp": "2025-11-17T11:48:33.715Z"
+  },
+  {
+    "employeeId": "6",
+    "taskId": "1763380113717pzgpugsx0",
+    "action": "created",
+    "details": "Task \"Complete Brand Guidelines Training\" assigned",
+    "performedBy": "2",
+    "id": "1763380113719vxmb65pxa",
+    "timestamp": "2025-11-17T11:48:33.719Z"
+  },
+  {
+    "employeeId": "6",
+    "taskId": "1763380113721v0tj6z2g3",
+    "action": "created",
+    "details": "Task \"Attend Marketing Team Strategy Session\" assigned",
+    "performedBy": "2",
+    "id": "1763380113722ecid9mufi",
+    "timestamp": "2025-11-17T11:48:33.722Z"
+  },
+  {
+    "employeeId": "6",
+    "taskId": "1763380113709j5blfrxmv",
+    "action": "started",
+    "details": "Task \"Review Marketing Tools & Platforms\" started",
+    "performedBy": "6",
+    "metadata": {
+      "oldStatus": "pending",
+      "newStatus": "in-progress"
+    },
+    "id": "1763380148407xuerucj54",
+    "timestamp": "2025-11-17T11:49:08.407Z"
+  },
+  {
+    "employeeId": "6",
+    "taskId": "1763380113709j5blfrxmv",
+    "action": "completed",
+    "details": "Task \"Review Marketing Tools & Platforms\" completed",
+    "performedBy": "6",
+    "metadata": {
+      "oldStatus": "in-progress",
+      "newStatus": "completed",
+      "comments": "complete"
+    },
+    "id": "176338016329435xemqw7t",
+    "timestamp": "2025-11-17T11:49:23.294Z"
+  }
+]
