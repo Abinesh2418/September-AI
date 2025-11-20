@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>IT Support Chat</title>
+    <link rel="stylesheet" href="styles.css">
+    <script src="https://unpkg.com/lucide@latest"></script>
+</head>
+<body>
+
+    <div class="app-container">
+        <!-- Chat Header -->
+        <header>
+            <div class="header-info">
+                <i data-lucide="bot" class="bot-icon"></i>
+                <div>
+                    <h2>Snap & Solve AI</h2>
+                    <p>Online - Ready to help</p>
+                </div>
+            </div>
+        </header>
+
+        <!-- Chat Messages Area -->
+        <div id="chat-window" class="chat-window">
+            <div class="message bot-message">
+                <div class="bubble">
+                    👋 Hi! I'm your IT Support Assistant. Upload a screenshot of an error or ask me a question to get started!
+                </div>
+            </div>
+        </div>
+
+        <!-- Input Area -->
+        <div class="input-area">
+            <!-- Image Preview (Hidden initially) -->
+            <div id="image-preview-container" class="hidden">
+                <img id="preview-img" src="" />
+                <button id="clear-img" onclick="clearImage()"><i data-lucide="x"></i></button>
+            </div>
+
+            <div class="controls">
+                <input type="file" id="file-input" accept="image/*" hidden onchange="handleFileSelect(event)">
+                
+                <button class="icon-btn" onclick="document.getElementById('file-input').click()" title="Upload Image">
+                    <i data-lucide="camera"></i>
+                </button>
+
+                <input type="text" id="user-input" placeholder="Type a message..." onkeypress="handleEnter(event)">
+                
+                <button class="send-btn" onclick="sendMessage()">
+                    <i data-lucide="send"></i>
+                </button>
+            </div>
+        </div>
+    </div>
+
+    <script src="script.js"></script>
+    <script>lucide.createIcons();</script>
+</body>
+</html>
